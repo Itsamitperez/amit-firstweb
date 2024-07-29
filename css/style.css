@@ -1,0 +1,71 @@
+body{
+    background-color: #FCF3E4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+#navbar{
+    background-color: #FFB54D;
+    color: #24130F;
+}
+
+#navbar ul{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navbar li{
+    margin: 0px;
+}
+
+.showcase{
+    background-color: #FCF3E4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+}
+
+.showcase h1{
+    font-size: 55px;
+    color: #24130F;
+    line-height: 55px;
+
+}
+
+.showcase p{
+    color: #24130F;
+    padding: 0px 100px;
+}
+
+.showcase li{
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23158828"><path d="M9 19c-.26 0-.51-.1-.71-.29l-6-6A.996.996 0 1 1 3.7 11.3l5.29 5.29L20.28 5.3a.996.996 0 1 1 1.41 1.41l-12 12c-.2.2-.45.29-.71.29Z"></path></svg>');
+    text-align: left;
+}
+.showcase li::marker{
+    font-size: 1.8em;
+}
+
+.button{
+    background-color: #FFB54D;
+    border-radius: 25em;
+    padding: 0px 100px;
+    display: flex;
+    /* not working need to text align and give some position fix */
+}
+    
+
+
+
+
+
+/* url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%2365372A"><path d="m20.71 11.29-6-6A.996.996 0 1 0 13.3 6.7l4.29 4.29H4c-.55 0-1 .45-1 1s.45 1 1 1h13.59l-4.29 4.29a.996.996 0 0 0 .71 1.7c.26 0 .51-.1.71-.29l6-6a.996.996 0 0 0 0-1.41Z"></path></svg>') */
+
+
