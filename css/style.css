@@ -53,15 +53,35 @@ body{
     font-size: 1.8em;
 }
 
-.button{
-    background-color: #FFB54D;
-    border-radius: 25em;
-    padding: 0px 100px;
-    display: flex;
-    /* not working need to text align and give some position fix */
-}
-    
 
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4a460; /* Adjusted color */
+    color: black; /* Adjusted color */
+    border: 2px solid #8B4513; /* Adjusted color */
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button svg {
+    margin-left: 10px;
+    fill: #8B4513; /* Adjusted color */
+    transition: transform 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #d98d3b; /* Adjusted color */
+}
+
+.button:hover svg {
+    transform: translateX(5px);
+}
 
 
 
