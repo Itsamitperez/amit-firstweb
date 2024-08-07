@@ -1,7 +1,7 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #FCF3E4;
     color: #555;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
@@ -57,6 +57,9 @@ body{
     font-size: 1.8em;
 }
 
+.clr{
+    clear: both;
+}
 
 .button {
     display: inline-flex;
@@ -89,23 +92,51 @@ body{
 }
 
 .button-showcase{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     background-color: #d98d3b;
-    border-radius: 50px;
-    width: 500px;
-    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button-showcase img{
-    border-radius: 600px;
-    size: 10px;
-    width: 15%;
-    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
-.button-showcase div{
-    text-align: left;
+.button-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.emoji{
+    margin-left: 5px;
+}
+
+.author{
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+
+.justify-container h2{
+    text-align: center;
+}
+
+.example-justify{
+    display: flex;
+    align-items: center;
 }
 
 
