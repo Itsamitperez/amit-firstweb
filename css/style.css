@@ -129,14 +129,33 @@ body{
     color: #555;
 }
 
+.justify-container{
+    background-color: #64372A;
+    padding-top: 80px;
+}
 
-.justify-container h2{
+.justify-container h2, p{
+    color: #F9DFB8;
     text-align: center;
+    padding: 0px 60px ;
 }
 
 .example-justify{
+    padding-top: 70px;
     display: flex;
     align-items: center;
+}
+
+.emoji-justify{
+    width: 200px;  
+    height: 100px; 
+}
+
+.first-justify {
+    text-align: center;
+}
+.arrow-justify {
+    width: 50px;
 }
 
 
