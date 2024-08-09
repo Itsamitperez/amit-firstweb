@@ -169,18 +169,19 @@ body{
     color: #f5a623; /* Title color */
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .features p {
     color: #6a6a6a;
     font-size: 1rem;
-    margin-bottom: 20px;
 }
 
 .featurelist ul {
     list-style-type: none;
     padding: 0;
+    padding: 50px;
 }
 
 .featurelist li {
@@ -254,5 +255,72 @@ body{
     display: block; /* Show the info button when active */
 }
 
+.example-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f9f1e7; /* Matches the background of the screenshot */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 360px; /* Set max-width for the container */
+    margin: 0 auto; /* Center the container */
+}
 
+.example-features video, .example-features img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: white; /* Ensures a clean background */
+}
 
+.example-features video {
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.example-features img {
+    object-fit: cover;
+}
+
+.example-features > * {
+    display: none;
+}
+
+.info-button {
+    display: none;
+    margin-top: 5px;
+    color: #555;
+}
+
+.button-group.active + .info-button {
+    display: block;
+}
+
+.button-group.active {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.use-cases{
+    text-align: center;
+    padding-top: 150px;
+}
+.use-cases-info{
+    padding-top: 50px;
+    margin: 50px;
+    border-radius: 2rem;
+    background-color:#F9E9D2;
+    display: flex;
+}
+
+.use-cases-info-left{
+    display: flexbox;
+
+}
+.use-cases-info-right{
+    display: flexbox;
+}
+.case-1 h3 p{
+  text-align: left;
+}
