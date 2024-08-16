@@ -302,28 +302,75 @@ body{
     border-radius: 8px;
 }
 
-.use-cases{
+.use-cases {
     text-align: center;
     padding-top: 150px;
 }
-.use-cases-info{
-    padding-top: 50px;
-    margin: 50px;
-    border-radius: 2rem;
-    background-color:#F9E9D2;
-    display: flex;
-    align-items: center;
+.use-cases p{
+    color: #333;
+    font-size: 16px;
 }
 
-.use-cases-info-left{
-    display: flexbox;
+.use-cases-info {
+    padding-top: 50px;
+    margin: 50px auto;
+    border-radius: 2rem;
+    background-color: #F9E9D2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
 }
-.use-cases-info-right{
-    display: flexbox;
+
+.use-cases-info-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -30px ;
 }
-.case-1 h3 p{
-  text-align: left;
+
+.use-cases-info-right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.case-1 p{
+.case{
+    margin: 20px 20px;
+}
+.case h3 {
     color: #333;
-  }
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.case p {
+    color: #555;
+    text-align: left;
+    margin: 0;
+    margin-left: -40px;
+    line-height: 1.5;
+}
+
+.image-wrapper {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px; /* Adjust height to fit the images */
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
